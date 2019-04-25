@@ -20,6 +20,7 @@
 </head>
 
 <body>
+<!--Jumbotron-->
     <div class="jumbotron text-center bg-dark">
         <h1 class="display-4 text-light">Train Scheduler</h1>
         <p class="lead text-light">Wooo wooo chooo chooo!</p>
@@ -30,6 +31,7 @@
             <div class="card-header text-left">
                 Current Train Schedule
             </div>
+<!--Schedule categories-->
             <div class="card-body">
                 <table class="table">
                     <thead class="thead-dark">
@@ -41,12 +43,13 @@
                             <th scope="col">Minutes Away</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id = "train-data">
+<!--Train information-->
                         <tr>
                             <td>Trenton Express</td>
                             <td>Trenton</td>
                             <td>25</td>
-                            <td>5:35 PM</td>
+                            <td>05:35 PM</td>
                             <td>10</td>
                         </tr>
                         <tr>
@@ -92,6 +95,7 @@
                 </table>
 
             </div>
+<!--Train submition card-->
             <div class="card text-center">
                 <div class="card-header">
                     Add Train
