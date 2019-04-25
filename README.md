@@ -2,7 +2,7 @@
 
 *What this app does
 
--This app allows the user to manage train schedules by being able to view train names, frequencies, arrival times, and destinations. All train data is stored in a realtime firebase database and then returned and appended to the table with, then based on the ETA, momentjs will calculate how minutes away the train is from arriving.
+-This app allows the user to manage train schedules by being able to view train names, frequencies, arrival times, and destinations. All train data is stored in a realtime firebase database and then returned and appended to the table, then based on the ETA, momentjs will calculate how minutes away the train is from arriving.
 
 *How its useful
 
